@@ -1,0 +1,40 @@
+<ion-content>
+
+  <ion-fab vertical="top" horizontal="end">
+    <ion-fab-button (click)="addLikes()">
+      <ion-icon name="thumbs-up-sharp">
+</ion-icon>
+</ion-fab-button>
+      <ion-badge color="danger">{{Likes}}</ion-badge>
+    
+    
+  </ion-fab>
+  <ion-grid>
+    <ion-row>
+      <ion-col id="fotoPerfilCol">
+        <ion-icon name="person-outline" id="fotoPerfilIcon"></ion-icon>
+      </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col id="nome">nome de usuário</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col id="apelido">Apelido</ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col class="i1"><ion-icon name="logo-angular"></ion-icon></ion-col>
+            <ion-col class="i2"><ion-icon name="logo-react"></ion-icon></ion-col>
+            <ion-col class="i3"><ion-icon name="logo-ionic"></ion-icon></ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col class="i3"><ion-icon name="logo-javascript"></ion-icon></ion-col>
+              <ion-col class="i2"><ion-icon name="logo-nodejs"></ion-icon></ion-col>
+              <ion-col class="i1"><ion-icon name="logo-npm"></ion-icon></ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col class="i2"><ion-icon name="logo-slack"></ion-icon></ion-col>
+                <ion-col class="i1"><ion-icon name="logo-html5"></ion-icon></ion-col>
+                <ion-col class="i3"><ion-icon name="logo-github"></ion-icon></ion-col>
+                </ion-row>
+  </ion-grid>
+</ion-content>
