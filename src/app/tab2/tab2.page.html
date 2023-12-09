@@ -1,17 +1,30 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      Catálogo de Bolos
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <!-- Seção de Cards de Produtos -->
+  <ion-grid>
+    <ion-row>
+      <!-- Card para cada tipo de bolo -->
+      <ion-col size="12" size-md="6" size-lg="4" *ngFor="let bolo of bolos">
+        <ion-card>
+          <ion-img [src]="bolo.imagem"></ion-img>
+          <ion-card-header>
+            <ion-card-title>{{ bolo.nome }}</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <p>Ingredientes: {{ bolo.ingredientes }}</p>
+            <p class="ion-text-end ion-margin-top">Preço: {{ bolo.preco | currency: 'BRL' }}</p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
 </ion-content>
