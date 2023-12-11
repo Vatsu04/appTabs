@@ -36,4 +36,8 @@ ion-header {
   }
   
   /* Personalize as cores e tamanhos conforme necessário */
+  .image-limit {
+    max-height: 50px; /* Adjust the value as needed */
+    object-fit: cover;/* Maintain aspect ratio and cover the container */
+  }
   

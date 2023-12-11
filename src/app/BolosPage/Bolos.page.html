@@ -1,12 +1,9 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Catálogo de Bolos
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
+<ion-content>
+  <ion-header>
+    <ion-toolbar>
+      <ion-title class="ion-text-center">Anabolic Cakes</ion-title>
+    </ion-toolbar>
+  </ion-header>
 
   <!-- Seção de Cards de Produtos -->
   <ion-grid>
@@ -14,17 +11,23 @@
       <!-- Card para cada tipo de bolo -->
       <ion-col size="12" size-md="6" size-lg="4" *ngFor="let bolo of bolos">
         <ion-card>
-          <ion-img [src]="bolo.imagem"></ion-img>
+          <ion-img [src]="bolo.imagem" class="image-limit"></ion-img>
           <ion-card-header>
             <ion-card-title>{{ bolo.nome }}</ion-card-title>
           </ion-card-header>
-          <ion-card-content>
-            <p>Ingredientes: {{ bolo.ingredientes }}</p>
-            <p class="ion-text-end ion-margin-top">Preço: {{ bolo.preco  }}</p>
-          </ion-card-content>
+          
+         
         </ion-card>
-      </ion-col>
+      
+      <ion-card>
+       
+        
+        <ion-card-content>
+          <p>Ingredientes: {{ bolo.ingredientes }}</p>
+          <p class="ion-text-end ion-margin-top">Preço: {{ bolo.preco  }}</p>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
     </ion-row>
   </ion-grid>
-
 </ion-content>

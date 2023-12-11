@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 3
+      Sorteio Anabolic Cakes
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,9 +9,31 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
+      <ion-title size="large">
+        Sorteio
+      </ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Participe do Sorteio!</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p>Para concorrer, siga os passos abaixo:</p>
+      <ol>
+       
+        <li>Curta esta publicação</li>
+        <li>Marque 3 amigos nos comentários</li>
+      </ol>
+      <p>O sorteio será realizado em <strong>30 dias</strong>. Boa sorte a todos!</p>
+    </ion-card-content>
+
+    <ion-item>
+      <ion-button expand="full" color="success" (click)="participarSorteio()">
+        Participar do Sorteio
+      </ion-button>
+    </ion-item>
+  </ion-card>
 </ion-content>

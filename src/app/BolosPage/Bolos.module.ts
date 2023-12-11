@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
-import { CurrencyPipe } from '@angular/common';
+
 import { BolosPage } from './Bolos.page';
 
 @NgModule({
@@ -14,6 +14,6 @@ import { BolosPage } from './Bolos.page';
     FormsModule,
     RouterModule.forChild([{ path: '', component: BolosPage }]),
   ],
-  declarations: [BolosPage, CurrencyPipe],
+  declarations: [BolosPage],
 })
 export class BolosPageModule {}
