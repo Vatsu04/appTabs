@@ -1,0 +1,39 @@
+/* Adicione este código ao seu arquivo de estilo, por exemplo, styles.css */
+
+ion-header {
+    background-color: #ffc107; /* Cor de fundo do cabeçalho */
+  }
+  
+  ion-title {
+    color: #fff; /* Cor do texto do título */
+  }
+  
+  ion-content {
+    background-color: #f8f9fa; /* Cor de fundo do conteúdo */
+  }
+  
+  ion-card {
+    margin-bottom: 16px; /* Espaçamento entre os cards */
+  }
+  
+  ion-img {
+    max-height: 200px; /* Altura máxima da imagem */
+    object-fit: cover; /* Garante que a imagem cubra completamente a área designada */
+  }
+  
+  ion-card-title {
+    font-size: 18px; /* Tamanho do texto do título do card */
+    font-weight: bold; /* Peso da fonte do texto do título do card */
+  }
+  
+  ion-card-content {
+    font-size: 14px; /* Tamanho do texto do conteúdo do card */
+  }
+  
+  ion-text-end {
+    font-weight: bold; /* Peso da fonte para o texto à direita (preço) */
+    color: #007bff; /* Cor do texto à direita (preço) */
+  }
+  
+  /* Personalize as cores e tamanhos conforme necessário */
+  
