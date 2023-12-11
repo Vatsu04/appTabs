@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-bolos',
-  templateUrl: 'bolos.page.html',
-  styleUrls: ['bolos.page.scss'],
+  selector: 'app-tab2',
+  templateUrl: 'tab2.page.html',
+  styleUrls: ['tab2.page.scss'],
 })
 export class BolosPage {
   bolos: any[] = [
