@@ -1,37 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anabolic Balls - Protein Balls Store</title>
+  <link rel="stylesheet" href="path-to-your-ionic-styles.css">
+</head>
+<body>
+
 <ion-content>
 
 
 
+  <!-- Header Section -->
+  <ion-header>
+    <ion-toolbar>
+      <ion-title class="ion-text-center">Anabolic Balls</ion-title>
+    </ion-toolbar>
+  </ion-header>
 
-  <ion-grid>
-    <ion-row> 
-      
-      <ion-col id="fotoPerfilCol">
-        <ion-img src="http://truck.social-card-share.top/kzh3vip" alt=""></ion-img>
-        <!-- Corrected the ion-img tag -->
-        <ion-img src="https://ca-times.brightspotcdn.com/dims4/default/8f6dbb5/2147483647/strip/true/crop/2048x1075+0+145/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fd7%2Fdf%2Ffe2d27b808e22050731b821bfc01%2Fla-2441655-he-1019-mobilegym-mrc07-jpg-20151112" id="img" alt="231"></ion-img>
+  <!-- Ball Likes Button -->
+  <ion-fab vertical="top" horizontal="end">
+    <ion-fab-button (click)="addLikes()">
+      <ion-icon name="thumbs-up-sharp"></ion-icon>
+    </ion-fab-button>
+    <ion-badge color="danger">{{Likes}}</ion-badge>
+  </ion-fab>
+
+  <!-- Store Information Section -->
+  <ion-grid class="ion-padding">
+    <ion-row>
+      <ion-col class="ion-text-center">
+        <ion-icon name="basket-outline" id="storeIcon"></ion-icon>
       </ion-col>
-      </ion-row>
-      <ion-row>
+    </ion-row>
+    <ion-row>
+      <ion-col class="ion-text-center" id="storeName">Anabolic Balls</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="ion-text-center" id="storeTagline">Energize Your Day with Protein Balls</ion-col>
+    </ion-row>
 
-        </ion-row>
-        <ion-row>
-
-          </ion-row>
-          <ion-row>
-            <ion-col class="i1"><ion-icon name="logo-angular"></ion-icon></ion-col>
-            <ion-col class="i2"><ion-icon name="logo-react"></ion-icon></ion-col>
-            <ion-col class="i3"><ion-icon name="logo-ionic"></ion-icon></ion-col>
-            </ion-row>
-            <ion-row>
-              <ion-col class="i3"><ion-icon name="logo-javascript"></ion-icon></ion-col>
-              <ion-col class="i2"><ion-icon name="logo-nodejs"></ion-icon></ion-col>
-              <ion-col class="i1"><ion-icon name="logo-npm"></ion-icon></ion-col>
-              </ion-row>
-              <ion-row>
-                <ion-col class="i2"><ion-icon name="logo-slack"></ion-icon></ion-col>
-                <ion-col class="i1"><ion-icon name="logo-html5"></ion-icon></ion-col>
-                <ion-col class="i3"><ion-icon name="logo-github"></ion-icon></ion-col>
-                </ion-row>
   </ion-grid>
+
+  <!-- About the Chef Section -->
+  <ion-grid class="ion-padding">
+    <ion-row>
+      <ion-col id="chefProfileCol">
+        <ion-icon name="person-outline" id="chefProfileIcon"></ion-icon>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col id="chefName">Chef Nutritionista</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col id="chefTitle">Master Protein Ball Artisan</ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <!-- Featured Ingredients Section -->
+  <ion-grid class="ion-padding">
+    <ion-row>
+      <ion-col class="ingredient-icon"><ion-icon name="flame-outline"></ion-icon></ion-col>
+      <ion-col class="ingredient-icon"><ion-icon name="leaf-outline"></ion-icon></ion-col>
+      <ion-col class="ingredient-icon"><ion-icon name="water-outline"></ion-icon></ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="ingredient-name">High-Quality Proteins</ion-col>
+      <ion-col class="ingredient-name">Natural Ingredients</ion-col>
+      <ion-col class="ingredient-name">Hydration Boost</ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <!-- Social Media Icons Section -->
+  <ion-grid class="ion-padding">
+    <ion-row>
+      <ion-col class="social-icon"><ion-icon name="logo-facebook"></ion-icon></ion-col>
+      <ion-col class="social-icon"><ion-icon name="logo-instagram"></ion-icon></ion-col>
+      <ion-col class="social-icon"><ion-icon name="logo-twitter"></ion-icon></ion-col>
+    </ion-row>
+  </ion-grid>
+
 </ion-content>
+
+</body>
+</html>

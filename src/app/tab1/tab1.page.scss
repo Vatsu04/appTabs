@@ -1,91 +1,93 @@
 ion-grid {
-    --ion-grid-padding: 5px;
-  
-    --ion-grid-padding-xs: 5px;
-    --ion-grid-padding-sm: 5px;
-    --ion-grid-padding-md: 5px;
-    --ion-grid-padding-lg: 5px;
-    --ion-grid-padding-xl: 5px;
-  
-    --ion-grid-column-padding: 10px;
-  
-    --ion-grid-column-padding-xs: 10px;
-    --ion-grid-column-padding-sm: 10px;
-    --ion-grid-column-padding-md: 10px;
-    --ion-grid-column-padding-lg: 10px;
-    --ion-grid-column-padding-xl: 10px;
-  }
-  
-  ion-col {
-    background-color: #aebebd;
-    border: solid 1px #fff;
-    color: rgb(41, 40, 40);
-    text-align: center;
-  }
+  --ion-grid-padding: 10px;
+}
 
-  #fotoPerfilIcon{
-font-size: 180px;
-color: #fff;
+ion-col {
+  background-color: #000;
+  border: solid 1px #aebebd;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
 
+#fotoPerfilIcon {
+  font-size: 180px;
+  color: #aebebd;
+}
 
-  }
+#fotoPerfilCol {
+  background-color: #aebebd;
+  padding: 40px;
+}
 
-  #fotoPerfilCol{
+#nome {
+  background-color: #aebebd;
+  font-size: 28px;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 0;
+}
 
-    background-color: rgb(45, 124, 124);
-    padding: 40px;
-  }
+#apelido {
+  background-color: #aebebd;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 0;
+}
 
-  #nome{
-background-color: #fff;
-font-size: 28px;
-font-weight: 800;
-font-family: Arial, Helvetica, sans-serif;
-padding-bottom: 0;
-  }
+.i1 {
+  background-color: #ff0000;
+  font-size: 40px;
+  padding: 10px;
+  margin: 5px;
+}
 
-  #apelido {
-    background-color: #fff;
-    font-size: 20px;
-    font-weight: 700;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 0;
-  }
+.i2 {
+  background-color: #000;
+  font-size: 40px;
+  color: #fff;
+  padding: 10px;
+  margin: 5px;
+}
 
-  .i1 {
-    background-color: rgb(240, 175, 215);
-    font-size: 40px;
-    padding: 10px;
-    margin: 5px;
-  }
+.i3 {
+  background-color: #ff0000;
+  font-size: 40px;
+  padding: 10px;
+  margin: 5px;
+  color: #fff;
+}
 
-  .i2 {
-    background-color: rgb(240, 250, 95);
-    font-size: 40px;
-    padding: 10px;
-    margin: 5px;
-  }
+ion-badge {
+  position: relative;
+  left: 40px;
+  top: -50px;
+  background-color: #ff0000;
+  color: #fff;
+}
 
-  .i3 {
-    background-color: rgb(128, 161, 233);
-    font-size: 40px;
-    padding: 10px;
-    margin: 5px;
-  }
+ion-fab {
+  right: 25px;
+}
 
-  ion-badge{
-    position: relative;
-    left: 40px;
-    top: -50px;
-  }
+#storeIcon {
+  color: #ff0000;
+}
 
-  ion-fab{
-    right: 25px;
-  }
+#storeName, #storeTagline {
+  color: #000;
+}
 
+#chefName, #chefTitle {
+  color: #fff;
+}
 
-  image{
-    width: 250px;
+.ingredient-icon ion-icon {
+  color: #aebebd;
+}
 
-    height:250px;
-  }
+.social-icon ion-icon {
+  color: #ff0000;
+}
+
