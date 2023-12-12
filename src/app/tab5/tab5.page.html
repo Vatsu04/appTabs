@@ -1,13 +1,48 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>tab5</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Sobre Nós</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">tab5</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content class="ion-padding">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Nossa História</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p>Somos a Anabolic Cakes, uma empresa dedicada a fornecer os melhores produtos para os amantes de doces e fitness.</p>
+      <p>Nossa jornada começou em...</p>
+      <!-- Adicione mais detalhes sobre a história da empresa -->
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Nossa Missão</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p>Nossa missão é...</p>
+      <!-- Adicione detalhes sobre a missão da empresa -->
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Nossa Equipe</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p>Conheça a equipe incrível por trás da Anabolic Cakes:</p>
+      <ul>
+        <li>Nome 1 - Cargo</li>
+        <li>Nome 2 - Cargo</li>
+        <!-- Adicione mais membros da equipe conforme necessário -->
+      </ul>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
