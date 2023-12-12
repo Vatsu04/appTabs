@@ -1,0 +1,35 @@
+ion-header {
+    --ion-background-color: #ffcc00; /* Cor de fundo do cabeçalho */
+  }
+  
+  ion-title {
+    color: #333; /* Cor do texto do título */
+  }
+  
+  ion-content {
+    --ion-background-color: #f4f4f4; /* Cor de fundo do conteúdo */
+    padding: 20px;
+  }
+  
+  ion-label {
+    color: #333; /* Cor do texto da etiqueta */
+  }
+  
+  ion-input {
+    border: 1px solid #ccc; /* Cor da borda do campo de entrada */
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  ion-button {
+    --ion-text-color: #fff; /* Cor do texto do botão */
+    --ion-background-color: #007bff; /* Cor de fundo do botão */
+    margin-top: 20px;
+  }
+  
+  ion-button:hover {
+    --ion-background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+  }
+  
+  /* Adicione mais estilos conforme necessá
+  

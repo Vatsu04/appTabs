@@ -1,0 +1,40 @@
+ion-header {
+    --ion-background-color: #ffcc00; /* Cor de fundo do cabeçalho */
+  }
+  
+  ion-title {
+    color: #333; /* Cor do texto do título */
+  }
+  
+  ion-content {
+    --ion-background-color: #f4f4f4; /* Cor de fundo do conteúdo */
+  }
+  
+  ion-card {
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  }
+  
+  ion-card-title {
+    color: #333; /* Cor do texto do título do card */
+  }
+  
+  ion-card-content {
+    color: #555; /* Cor do texto do conteúdo do card */
+  }
+  
+  ion-item {
+    margin-top: 20px;
+  }
+  
+  ion-button {
+    --ion-text-color: #fff; /* Cor do texto do botão */
+  }
+  
+  ion-button[color="success"] {
+    --ion-background-color: #28a745; /* Cor de fundo do botão "success" */
+  }
+  
+  /* Adicione mais estilos conforme necessário */
+  
