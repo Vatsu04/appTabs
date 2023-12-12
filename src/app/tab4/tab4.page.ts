@@ -1,15 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-tab4',
-  templateUrl: './tab4.page.html',
-  styleUrls: ['./tab4.page.scss'],
+  selector: 'app-cadastro-conta',
+  templateUrl: './cadastro-conta.page.html',
+  styleUrls: ['./cadastro-conta.page.scss'],
 })
-export class Tab4Page implements OnInit {
+export class CadastroContaPage {
+  conta = {
+    nome: '',
+    email: '',
+    senha: '',
+  };
 
-  constructor() { }
-
-  ngOnInit() {
+  onSubmit() {
+    // Lógica para lidar com o envio do formulário (por exemplo, chamar um serviço para criar a conta)
+    console.log('Conta cadastrada:', this.conta);
   }
-
 }
