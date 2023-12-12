@@ -1,0 +1,40 @@
+ion-header {
+    --ion-background-color: #ffcc00; 
+  }
+  
+  ion-title {
+    color: #333; 
+  }
+  
+  ion-content {
+    --ion-background-color: #f4f4f4;
+    padding: 20px;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  }
+  
+  ion-label {
+    color: #333; 
+  }
+  
+  ion-input {
+    border: 1px solid #ccc;  
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  ion-button {
+    --ion-text-color: #fff; 
+    --ion-background-color: #007bff; 
+    margin-top: 20px;
+  }
+  
+  ion-button:hover {
+    --ion-background-color: #0056b3;
+  }
+  
+
+  
