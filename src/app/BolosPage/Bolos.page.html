@@ -32,11 +32,9 @@
     </ion-row>
   </ion-grid>
 
-  <!-- Seção de Cards de Produtos -->
-  <ion-grid>
-    <!-- ... (outros elementos) -->
 
-    <!-- Carrinho de Compras -->
+  <ion-grid>
+    
     <ion-row>
       <ion-col size="12">
         <ion-card>
@@ -45,14 +43,14 @@
           </ion-card-header>
           
           <ion-card-content>
-            <!-- Lista de itens do carrinho -->
+           
             <ion-list>
               <ion-item *ngFor="let item of carrinhoItens">
                 {{ item.nome }} - Quantidade: {{ item.quantidade }}
               </ion-item>
             </ion-list>
 
-            <!-- Total do Carrinho -->
+           
             <p class="ion-text-end ion-margin-top">Total: {{ calcularTotalCarrinho() }}</p>
             
           </ion-card-content>
