@@ -67,6 +67,9 @@ ion-badge {
   color: #fff;
 }
 
+ion-text-center{
+  color: white
+}
 ion-fab {
   right: 25px;
 }
@@ -76,7 +79,7 @@ ion-fab {
 }
 
 #storeName, #storeTagline {
-  color: #000;
+  color: #ffffff;
 }
 
 #chefName, #chefTitle {
@@ -91,3 +94,13 @@ ion-fab {
   color: #ff0000;
 }
 
+.image{
+  height: 300px;
+  
+}
+.card{
+  display: flex;
+  flex-direction:row
+  ;
+  justify-content: space-around;
+}
